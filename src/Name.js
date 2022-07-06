@@ -12,7 +12,14 @@ import { useState } from 'react';
 const Name = () => {
   const [name, setName] = useState('Serhat');
   const [age, setAge] = useState(28);
-  const [friends, setFriends] = useState(['Zeynep', 'Luna', 'Salar', 'Toprak']);
+  const [friends, setFriends] = useState([
+    'Zeynep',
+    'Luna',
+    'Salar',
+    'Toprak',
+    'Kürşat',
+    'Aslı',
+  ]);
   const [address, setAddress] = useState({
     city: 'Istanbul',
     zip: 345634,
