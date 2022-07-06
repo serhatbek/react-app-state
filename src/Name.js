@@ -55,7 +55,12 @@ const Name = () => {
 
         <button
           onClick={() =>
-            setAddress({ ...address, city: 'Ankara', zip: 452334, apartNo: 6 })
+            setAddress({
+              ...address,
+              city: 'Eskişehir',
+              zip: 452334,
+              apartNo: 6,
+            })
           }
         >
           Change Address
