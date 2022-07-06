@@ -4,7 +4,7 @@
 
 - Section Topics
 
-1. What is state
+1. What is State
 2. Array States
 3. Object States
 4. Logic of Re-Render

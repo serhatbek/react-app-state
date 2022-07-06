@@ -1,9 +1,14 @@
 import './App.css';
 
+import Name from './Name';
+import Counter from './Counter';
+
 function App() {
   return (
     <div className='App'>
-      <h1>State</h1>
+      <Name />
+      <br />
+      <Counter />
     </div>
   );
 }
