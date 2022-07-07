@@ -1,20 +1,18 @@
 import './App.css';
 
-import Name from './Name';
-import Counter from './Counter';
-import Input from './Input';
-import MountComponent from './MountComponent';
+import { useState } from 'react';
+import Counter2 from './Counter2';
+// import Name from './Name';
+// import Input from './Input';
+// import MountComponent from './MountComponent';
 
 function App() {
+  const [isVisible, setIsVisible] = useState(true);
   return (
     <div className='App'>
-      <Name />
+      {isVisible && <Counter2 />}
       <br />
-      <MountComponent />
-      <br />
-      <Input />
-      <br />
-      <Counter />
+      <button onClick={() => setIsVisible(!isVisible)}>Toggle Counter</button>
     </div>
   );
 }
